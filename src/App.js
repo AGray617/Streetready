@@ -289,12 +289,26 @@ function Dashboard({ completedTopics, totalMastered, totalVerses, coachSessions,
         </button>
       ))}
 
-      {/* DAILY ANCHOR */}
-      <div className="fade-up" style={{ marginTop: 8, background: "#080e08", border: "1px solid #1a3a1a", borderRadius: 10, padding: "14px 16px", animationDelay: "0.6s" }}>
-        <div style={{ fontSize: 10, letterSpacing: 3, color: "#4eda7a", textTransform: "uppercase", marginBottom: 8, fontFamily: "'Arial',sans-serif" }}>Daily Anchor</div>
-        <div style={{ fontSize: 14, color: "#b0c8a0", lineHeight: 1.8, fontStyle: "italic" }}>"For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes."</div>
-        <div style={{ fontSize: 11, color: "#3a6a3a", marginTop: 6 }}>— Romans 1:16</div>
-      </div>
+      {/* DAILY ANCHOR — rotating verses */}
+      {(() => {
+        const anchors = [
+          { text: "For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes.", ref: "Romans 1:16" },
+          { text: "We destroy every proud obstacle that keeps people from knowing God. We capture their rebellious thoughts and teach them to obey Christ.", ref: "2 Corinthians 10:5" },
+          { text: "But you are his chosen people — he chose you to tell about the wonderful things he has done.", ref: "1 Peter 2:9" },
+          { text: "Greater is He who is in you than he who is in the world.", ref: "1 John 4:4" },
+          { text: "If you need wisdom, ask our generous God, and he will give it to you.", ref: "James 1:5" },
+          { text: "Seek the Kingdom of God above all else, and live righteously, and he will give you everything you need.", ref: "Matthew 6:33" },
+          { text: "The word of God is alive and powerful — sharper than the sharpest two-edged sword.", ref: "Hebrews 4:12" },
+        ];
+        const today = anchors[new Date().getDay() % anchors.length];
+        return (
+          <div className="fade-up" style={{ marginTop: 8, background: "#080e08", border: "1px solid #1a3a1a", borderRadius: 10, padding: "14px 16px", animationDelay: "0.6s" }}>
+            <div style={{ fontSize: 10, letterSpacing: 3, color: "#4eda7a", textTransform: "uppercase", marginBottom: 8, fontFamily: "'Arial',sans-serif" }}>Daily Anchor</div>
+            <div style={{ fontSize: 14, color: "#b0c8a0", lineHeight: 1.8, fontStyle: "italic" }}>"{today.text}"</div>
+            <div style={{ fontSize: 11, color: "#3a6a3a", marginTop: 6 }}>— {today.ref}</div>
+          </div>
+        );
+      })()}
 
       {/* FEEDBACK BUTTON */}
       <button onClick={handleFeedback} className="fade-up" style={{
@@ -611,8 +625,12 @@ function Learn({ completedTopics, setCompletedTopics }) {
       {mode === "theirs" && (
         <>
           <div style={{ fontSize: 10, letterSpacing: 3, color: "#3a4a5a", textTransform: "uppercase", marginBottom: 8, fontFamily: "'Arial',sans-serif" }}>Comparative Religion</div>
-          <div style={{ background: "#0d1520", border: "1px solid #1e2a3e", borderRadius: 10, padding: "11px 14px", marginBottom: 14, fontSize: 12, color: "#4a6a8a", lineHeight: 1.7 }}>
+          <div style={{ background: "#0d1520", border: "1px solid #1e2a3e", borderRadius: 10, padding: "11px 14px", marginBottom: 8, fontSize: 12, color: "#4a6a8a", lineHeight: 1.7 }}>
             Know what others believe — from their own sources. Study to understand, not to win. The person who feels understood is far more likely to listen.
+          </div>
+          <div style={{ background: "#0a0e1a", border: "1px solid #2a2a4a", borderRadius: 10, padding: "11px 14px", marginBottom: 14 }}>
+            <div style={{ fontSize: 12, color: "#5a5a8a", lineHeight: 1.7, fontStyle: "italic" }}>"Our fight is not against people on earth — we are fighting against spiritual powers of evil in the heavenly places."</div>
+            <div style={{ fontSize: 10, color: "#3a3a5a", marginTop: 5, fontFamily: "'Arial',sans-serif" }}>— Ephesians 6:12 · Engage people. Not defeat them.</div>
           </div>
           {FAITHS.map((f, i) => (
             <button key={f.id} onClick={() => { setFaith(f); setOpenSection(null); }} className="fade-up" style={{
@@ -812,7 +830,11 @@ ${history}`,
     return (
       <div style={{ maxWidth: 660, margin: "0 auto", padding: "20px 14px 60px" }}>
         <div style={{ fontSize: 10, letterSpacing: 3, color: "#3a4a5a", textTransform: "uppercase", marginBottom: 6, fontFamily: "'Arial',sans-serif" }}>AI Street Coach</div>
-        <div style={{ fontSize: 13, color: "#3a4a5a", marginBottom: 18, lineHeight: 1.7 }}>Select who you want to practice with. The AI plays the objector in real time — and coaches you on every response.</div>
+        <div style={{ fontSize: 13, color: "#3a4a5a", marginBottom: 12, lineHeight: 1.7 }}>Select who you want to practice with. The AI plays the objector in real time — and coaches you on every response.</div>
+        <div style={{ background: "#0d1520", border: "1px solid #2a3a5a", borderRadius: 10, padding: "12px 14px", marginBottom: 18 }}>
+          <div style={{ fontSize: 12, color: "#6a8aaa", lineHeight: 1.7, fontStyle: "italic" }}>"We destroy every proud obstacle that keeps people from knowing God. We capture their rebellious thoughts and teach them to obey Christ."</div>
+          <div style={{ fontSize: 10, color: "#3a4a5a", marginTop: 5, fontFamily: "'Arial',sans-serif" }}>— 2 Corinthians 10:5</div>
+        </div>
         {SCENARIOS.map((sc, i) => (
           <button key={sc.id} onClick={() => startSession(sc)} className="fade-up" style={{ width: "100%", background: "#111827", border: "1px solid #1a2232", borderLeft: `4px solid ${sc.color}`, borderRadius: 10, padding: "14px 16px", cursor: "pointer", display: "flex", alignItems: "center", gap: 12, color: "inherit", fontFamily: "inherit", textAlign: "left", marginBottom: 8, animationDelay: `${i * 0.06}s` }}>
             <span style={{ fontSize: 26, flexShrink: 0 }}>{sc.icon}</span>
