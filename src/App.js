@@ -877,10 +877,12 @@ ${history}`,
               </div>
             ) : m.role === "error" ? (
               <div style={{ background: "#1a0808", border: "1px solid #4a2a2a", borderRadius: 10, padding: "11px 14px", fontSize: 13, color: "#da6a4a", lineHeight: 1.75, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10 }}>
-                <span>⚠ {m.content}</span>
+                <span>⚠ Connection error. Tap Retry to try again.</span>
                 <button onClick={() => {
-                  setMsgs(p => p.filter((_, idx) => idx !== i));
-                  send(lastInput);
+                  const saved = lastInput;
+                  setMsgs(p => p.filter(msg => msg.role !== "error"));
+                  setHasError(false);
+                  setTimeout(() => send(saved), 50);
                 }} style={{ background: "#2a1010", border: "1px solid #da6a4a", borderRadius: 6, color: "#da6a4a", cursor: "pointer", padding: "5px 12px", fontFamily: "inherit", fontSize: 12, flexShrink: 0 }}>
                   ↺ Retry
                 </button>
@@ -905,7 +907,12 @@ ${history}`,
       <div style={{ background: "#0a0e1a", borderTop: "1px solid #1a2232", padding: "10px 14px", display: "flex", gap: 8 }}>
         <input value={input} onChange={e => setInput(e.target.value)} onKeyDown={e => e.key === "Enter" && !e.shiftKey && send()} placeholder="Type your response to the objection..." style={{ flex: 1, background: "#111827", border: "1px solid #2a3a4a", borderRadius: 8, padding: "11px 13px", color: "#e0d4c0", fontFamily: "inherit", fontSize: 14 }} />
         {hasError ? (
-          <button onClick={() => { setMsgs(p => p.filter(m => m.role !== "error")); send(lastInput); }} style={{ background: "#2a1010", border: "1px solid #da6a4a", borderRadius: 8, color: "#da6a4a", cursor: "pointer", padding: "11px 16px", fontFamily: "inherit", fontSize: 13 }}>↺ Retry</button>
+          <button onClick={() => {
+            const saved = lastInput;
+            setMsgs(p => p.filter(m => m.role !== "error"));
+            setHasError(false);
+            setTimeout(() => send(saved), 50);
+          }} style={{ background: "#2a1010", border: "1px solid #da6a4a", borderRadius: 8, color: "#da6a4a", cursor: "pointer", padding: "11px 16px", fontFamily: "inherit", fontSize: 13 }}>↺ Retry</button>
         ) : (
           <button onClick={() => send()} disabled={loading || !input.trim()} style={{ background: loading || !input.trim() ? "#111827" : "#1a2a4a", border: `1px solid ${loading || !input.trim() ? "#1a2232" : "#4a7aae"}`, borderRadius: 8, color: loading || !input.trim() ? "#2a3a4a" : "#c9a96e", cursor: loading || !input.trim() ? "not-allowed" : "pointer", padding: "11px 16px", fontFamily: "inherit", fontSize: 13 }}>Send</button>
         )}
