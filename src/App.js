@@ -76,12 +76,17 @@ const TOPICS = [
       { heading: "The Dead Sea Scrolls", body: "Discovered 1947 near the Dead Sea. Over 900 manuscripts dated 250 BC–68 AD — over 1,000 years older than previously available manuscripts. When compared to the Masoretic Text, the Isaiah scroll (all 66 chapters) matched with 95% accuracy across 1,000 years of hand-copying." },
       { heading: "NT Manuscript Evidence", body: "24,000+ NT manuscripts. Earliest copy ~125 AD — gap of only 25-50 years from original. Compare: Julius Caesar — 10 manuscripts, 1,000-year gap. Homer's Iliad — 1,900 manuscripts, 500-year gap. No historian questions Caesar's words. Same standard must apply to the NT — it wins by a landslide." },
       { heading: "On the '400,000 Variants'", body: "A 'variant' includes spelling differences and word order changes. Even skeptic Bart Ehrman admits they are 'completely trivial' and that 'no Christian doctrine is founded on a textually disputed passage.' 99% of NT text is undisputed. The 1% affects zero core doctrines." },
+      { heading: "The Apocrypha — What It Is", body: "The Apocrypha refers to 7 books (Tobit, Judith, 1 & 2 Maccabees, Wisdom, Sirach, Baruch) included in Catholic Bibles but not in Protestant Bibles. Catholics call them 'deuterocanonical' meaning second canon. Protestants and Jews call them non-canonical. The argument used against Protestants: 'Your church removed books from the Bible.'" },
+      { heading: "The Apocrypha — Why It Was Never Canonical", body: "1. THE JEWISH CANON EXCLUDED IT: Jesus was Jewish. The Hebrew canon — the Tanakh — never included the Apocrypha. Jewish scholars at Jamnia (90 AD) confirmed a canon that excluded these books. Jesus and the apostles quoted from the Old Testament over 300 times — not once from the Apocrypha.\n\n2. THE EARLY CHURCH DEBATED IT: Jerome, who translated the Bible into Latin (the Vulgate around 400 AD), explicitly stated the Apocrypha was not equal to canonical Scripture. He included it under pressure but marked it as secondary.\n\n3. COUNCIL OF TRENT ADDED IT IN 1546: The Catholic Church officially added the Apocrypha to their canon at the Council of Trent — in 1546 AD. This was 1,500 years after Christ and happened in direct response to the Protestant Reformation. Martin Luther had challenged Catholic doctrines like purgatory — which Catholics support using 2 Maccabees 12:46. The timing is not coincidental.\n\n4. THE BOOKS THEMSELVES CLAIM NO DIVINE AUTHORITY: 1 Maccabees 9:27 says there were no prophets in Israel at that time. The books do not claim prophetic inspiration the way canonical Scripture does.\n\n5. DOCTRINAL PROBLEMS: The Apocrypha contains teachings that contradict canonical Scripture — praying for the dead (2 Maccabees 12:46), salvation by almsgiving (Tobit 12:9), and historical errors documented by scholars." },
+      { heading: "Street Response to the Apocrypha Argument", body: "'You removed books from the Bible.' — RESPONSE: 'Actually those books were never in the original Jewish canon that Jesus used. He quoted the Old Testament over 300 times and never quoted from those books once. The Catholic Church officially added them in 1546 — 1,500 years after Christ — specifically to defend the doctrine of purgatory during the Reformation. The question is not why Protestants removed them. The question is why they were added 1,500 years later.'\n\nFollow-up question to ask: 'If Jesus never quoted them and the Jewish scholars never accepted them — on what authority were they added in 1546?'" },
       { heading: "Street Response", body: "'The Bible was changed.' Your answer: 'We have physical evidence — the Dead Sea Scrolls show 1,000 years of copying with virtually no change. And the NT has 24,000 manuscripts vs. 10 for Julius Caesar. Where specifically was it changed? Because the manuscripts don't show it.'" },
     ],
     quiz: [
       { q: "The Dead Sea Scrolls were discovered in the 20th century.", answer: true, explain: "Discovered in 1947 by a Bedouin shepherd boy near the Dead Sea — one of the most significant archaeological finds in history, transforming biblical scholarship." },
       { q: "The New Testament has fewer surviving manuscripts than the works of Julius Caesar.", answer: false, explain: "The NT has 24,000+ manuscripts. Caesar's works have about 10. The NT wins by every measure of ancient document reliability." },
       { q: "The 400,000 variants in NT manuscripts mean its core doctrines are unreliable.", answer: false, explain: "Most variants are trivial. 99% of NT text is undisputed. Zero core doctrines rest on a disputed passage. Even skeptic Bart Ehrman confirms this." },
+      { q: "The Catholic Church officially added the Apocrypha to their canon at the Council of Trent in 1546.", answer: true, explain: "1,500 years after Christ, in direct response to the Protestant Reformation. Protestant and Jewish canons follow the Hebrew Tanakh which never included these books." },
+      { q: "Jesus quoted from the Apocrypha multiple times in the Gospels.", answer: false, explain: "Jesus quoted the Old Testament over 300 times — never once from the Apocrypha. The Jewish canon He used and affirmed did not include those books." },
     ]
   },
   {
@@ -794,8 +799,9 @@ function Coach({ coachSessions, setCoachSessions }) {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-
-
+          "x-api-key": "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",
+          "anthropic-version": "2023-06-01",
+          "anthropic-dangerous-direct-browser-access": "true"
         },
         body: JSON.stringify({
           model: "claude-sonnet-4-20250514",
