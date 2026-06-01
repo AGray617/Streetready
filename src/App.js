@@ -253,7 +253,7 @@ function Dashboard({ completedTopics, totalMastered, totalVerses, coachSessions,
         <div style={{ height: 1, background: "#2a2010", marginBottom: 10 }} />
         <div style={{ fontSize: 11, letterSpacing: 2, color: "#c9a96e", textTransform: "uppercase", marginBottom: 6, fontFamily: "'Arial',sans-serif" }}>Our Mission</div>
         <div style={{ fontSize: 13, color: "#c9a96e", fontWeight: "bold", marginBottom: 4, lineHeight: 1.6 }}>Always be prepared — 1 Peter 3:15.</div>
-        <div style={{ fontSize: 13, color: "#8a7a5a", lineHeight: 1.7 }}>StreetReady trains everyday believers to be ready before the conversation finds them.</div>
+        <div style={{ fontSize: 13, color: "#8a7a5a", lineHeight: 1.7 }}>Study. Drill. Practice. Be ready to defend your faith anywhere.</div>
       </div>
 
       {/* STATS */}
@@ -753,7 +753,7 @@ function Learn({ completedTopics, setCompletedTopics }) {
           ))}
           <div style={{ marginTop: 8, background: "#1a1000", border: "1px solid #2a2010", borderRadius: 10, padding: "11px 14px" }}>
             <div style={{ fontSize: 11, color: "#5a4a2a", lineHeight: 1.7, fontStyle: "italic" }}>
-              🔜 Nation of Islam, Mormonism, and Afrocentric Spirituality coming in a future update.
+              🔜 Nation of Islam, Scientology, and Afrocentric Spirituality coming in a future update.
             </div>
           </div>
         </>
