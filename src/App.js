@@ -442,6 +442,100 @@ const FAITHS = [
         body: "They are trained and will have responses ready. Do not try to overwhelm them with verses. Pick ONE argument and stay on it. The best opening: ask them to read John 20:28 in their own NWT and explain why Jesus did not correct Thomas. Then ask: 'If Jesus is not God, what should He have said?' Let them wrestle with it. Never be hostile — they are people Jesus died for who have been misled by an organization. Gentleness opens more doors than winning arguments."
       }
     ]
+  },
+  {
+    id: "mormon", title: "Mormonism (LDS)", icon: "⛪", color: "#4eda9a", bg: "#001a0e",
+    tag: "400,000+ Members in Texas",
+    summary: "God was once a man who progressed to godhood. Jesus and Lucifer are spirit brothers. Salvation requires LDS temple ordinances. The Book of Mormon is Scripture equal to the Bible.",
+    sections: [
+      {
+        heading: "Who They Are",
+        body: "The Church of Jesus Christ of Latter-day Saints (LDS). Founded 1830 by Joseph Smith in New York. Over 17 million members worldwide. Approximately 400,000 in Texas alone — one of the highest concentrations outside Utah. The young men and women in white shirts and ties or modest dresses going door to door are LDS missionaries. They study for months before going out and are among the most trained religious conversationalists you will encounter. They use Christian language — Jesus, grace, salvation, gospel — but fill those words with completely different meanings. This is what makes them uniquely dangerous for unprepared believers."
+      },
+      {
+        heading: "Core Beliefs",
+        body: "God the Father has a physical body of flesh and bones. He was once a man who progressed to become God — this is called eternal progression. There are multiple gods. Jesus and Lucifer are spirit brothers — both children of Heavenly Father before coming to earth. The Holy Spirit is a separate god. Salvation has two tiers: general resurrection for all through Jesus, and exaltation (becoming a god) through LDS ordinances. The Book of Mormon, Doctrine and Covenants, and Pearl of Great Price are Scripture alongside the Bible. The Bible is only authoritative 'as far as it is translated correctly' — a qualifier that lets them dismiss any passage contradicting LDS teaching."
+      },
+      {
+        heading: "The Book of Mormon",
+        body: "Joseph Smith claimed an angel named Moroni revealed golden plates buried in New York in 1823. He claimed to translate them using seer stones placed in a hat — the plates were not even present during much of the translation. The Book of Mormon claims ancient Israelites migrated to the Americas around 600 BC and that Jesus appeared there after the resurrection.\n\nProblems: No archaeological evidence for the civilizations described — millions of people with horses, steel, chariots, elephants, wheat, and barley in ancient America have left zero trace. DNA evidence consistently shows Native American ancestry traces to Asia — not the Middle East. The original 1830 Book of Mormon has been revised thousands of times despite Smith calling it 'the most correct book on earth.' The golden plates disappeared — claimed to have been taken back by the angel."
+      },
+      {
+        heading: "Joseph Smith — False Prophet Test",
+        body: "Deuteronomy 18:22 — a prophet whose words do not come true is a false prophet.\n\nSmith prophesied the New Jerusalem would be built in Missouri in his generation — it never happened. He prophesied he would not die until Jesus returned — he was killed in 1844. He practiced polygamy — marrying at least 33 women including teenagers as young as 14 and women already married to living husbands.\n\nThe First Vision — the foundational story of Mormonism — was told in multiple contradictory versions. In some accounts Smith saw only Jesus. In others the Father and Son. In others an angel. In the earliest written account there is no mention of seeing God at all."
+      },
+      {
+        heading: "Their Key Arguments",
+        body: "1. We are the restored true church — the original church apostatized and needed restoration through Joseph Smith. 2. The Bible has been corrupted and is incomplete — the Book of Mormon restores lost truth. 3. We believe in Jesus Christ — we are Christians too. 4. Eternal progression — becoming like God is the purpose of human existence. 5. Families are forever — LDS temple sealing binds families eternally."
+      },
+      {
+        heading: "Your Counter-Response",
+        body: "On God once being a man: Isaiah 43:10 — 'Before me no god was formed nor shall there be any after me.' God says He was never preceded by another god and will never be followed by one. Eternal progression directly contradicts this.\n\nOn Jesus and Lucifer as spirit brothers: Colossians 1:16 — 'By him all things were created — things in heaven and on earth, visible and invisible.' Jesus created everything. He cannot be the sibling of something He created.\n\nOn salvation requiring temple ordinances: Ephesians 2:8-9 — 'By grace you have been saved through faith — not by works so that no one can boast.' Galatians 1:8 — any gospel adding requirements to grace is a different gospel — accursed.\n\nOn being Christians too: Ask them directly — 'Was God always God or was He once a man?' Their answer reveals immediately that the God of Mormonism is not the God of Scripture."
+      },
+      {
+        heading: "Three Questions That Open the Conversation",
+        body: "Go straight to the nature of God and salvation. Do not get drawn into Book of Mormon archaeology debates — that is their territory.\n\n1. 'Has God always been God or was He once a man who progressed to godhood?' — Let them answer. Then go to Isaiah 43:10.\n\n2. 'Are Jesus and Lucifer spirit brothers?' — Let them answer. Then go to Colossians 1:16.\n\n3. 'Can a person be fully saved — enter the highest kingdom — without LDS temple ordinances?' — They will say no. Then go to Ephesians 2:8-9 and Galatians 1:8.\n\nPick ONE and stay on it. Do not jump around. One argument held firmly is more powerful than five arguments scattered."
+      },
+      {
+        heading: "The Tone to Use",
+        body: "Mormons are among the most morally serious, family-oriented people you will encounter. They are not hostile. They genuinely believe what they are teaching and have often never heard a serious biblical challenge to their theology.\n\nDo not say 'your church is a cult' even though it meets the theological definition. Say: 'I respect how seriously you take your faith. I want to show you something from Scripture that concerns me about what you have been taught.'\n\nGentleness disarms them because they are trained to expect aggressive confrontation. A believer who engages with genuine curiosity and specific Scripture is more effective than any debate strategy."
+      },
+      {
+        heading: "Key Verses to Know",
+        body: "Isaiah 43:10 — No god before or after God. Colossians 1:16 — Jesus created all things — He cannot be a created being. Ephesians 2:8-9 — Grace through faith alone — not works. Galatians 1:8-9 — Any other gospel is accursed. John 4:24 — God is spirit — He does not have a physical body. Deuteronomy 18:22 — False prophet test. Revelation 22:18 — Warning against adding to Scripture."
+      },
+      {
+        heading: "Recommended Resource",
+        body: "Mormonism 101 by Bill McKeever and Eric Johnson — the most thorough and fair-minded treatment of LDS theology from an evangelical perspective. Also helpful: the testimony of former LDS members on the Mormon Stories Podcast and the CES Letter — a document written by a former believing Mormon that documents the historical and theological problems with LDS claims."
+      }
+    ]
+  },
+  {
+    id: "judaism", title: "Judaism", icon: "✡", color: "#daa520", bg: "#1a1400",
+    tag: "The Root We Are Grafted Into",
+    summary: "Judaism and Christianity share the same Scriptures and the same God. The single point of disagreement is the most important question in history: Is Jesus of Nazareth the promised Messiah?",
+    sections: [
+      {
+        heading: "Read This First — The Right Posture",
+        body: "This profile requires a different posture than every other section in this app. The history between Christians and Jewish people includes the Crusades, the Inquisition, forced conversions, pogroms, and the Holocaust — carried out in a historically Christian nation. Jewish people have legitimate reasons to be deeply suspicious of Christians who approach them with theological arguments.\n\nRomans 11:18 — Paul explicitly warns Gentile believers: 'Do not be arrogant toward the branches.' The branches are Israel. We are grafted in. We do not stand over them — we stand alongside them as recipients of the same covenant promises.\n\nThe approach to a Jewish person is never debate. It is always relationship, respect, and genuine love — then a conversation that begins with what you share, not where you disagree. Go in with humility. The Jewish people gave us the Scriptures, the Messiah, and the apostles. We owe them a debt we cannot repay."
+      },
+      {
+        heading: "Who They Are",
+        body: "Judaism is the world's oldest monotheistic religion — the covenant people of God through Abraham, Isaac, and Jacob. Approximately 15 million Jewish people worldwide. Major concentrations in New York City (the largest Jewish population outside Israel), Los Angeles, Miami, Chicago, and throughout New Jersey.\n\nNew York City alone has approximately 1.1 million Jewish residents — the largest Jewish community in the world outside Israel. Brooklyn specifically — Crown Heights, Borough Park, Williamsburg — has some of the most concentrated Orthodox and Hasidic Jewish communities in the world. If you are from Brooklyn you have grown up alongside this community your entire life.\n\nModern Judaism has several expressions: Orthodox (strictly observant of Torah law), Conservative (moderately traditional), Reform (liberal, emphasizes ethics over ritual), Reconstructionist (cultural and philosophical), and Secular Jewish (culturally Jewish, not religiously practicing). Most Jewish people you encounter in urban settings are secular or Reform — culturally Jewish but not necessarily Torah-observant."
+      },
+      {
+        heading: "Core Beliefs",
+        body: "One God — absolute, indivisible, incorporeal. The Shema — Deuteronomy 6:4: 'Hear O Israel the Lord our God the Lord is one.' This is the central confession of Judaism recited twice daily.\n\nThe Torah — the five books of Moses — is the foundational Scripture. The Tanakh (Torah, Prophets, Writings) is what Christians call the Old Testament. Jewish tradition also includes the Talmud — centuries of rabbinic commentary and legal discussion.\n\nThe covenant — God made specific covenant promises to Abraham and his descendants. The Jewish people are in a unique covenant relationship with God as His chosen people.\n\nThe Messiah — Judaism expects a future Messiah who will bring world peace, rebuild the temple, gather all Jewish people to Israel, and usher in a golden age. Most Jewish denominations do not believe the Messiah has come yet."
+      },
+      {
+        heading: "Why Most Jewish People Reject Jesus as Messiah",
+        body: "These are serious theological objections — not excuses. Understand them deeply before engaging.\n\n1. THE MESSIAH DID NOT BRING WORLD PEACE: Isaiah 2:4 describes a world where nations beat swords into plowshares. The world has not experienced this. Wars continued after Jesus. The temple was destroyed in 70 AD. Jewish people were scattered further — not gathered.\n\n2. THE MESSIAH DID NOT REBUILD THE TEMPLE: Ezekiel 37:26-28 describes a permanent temple. No temple was built during Jesus's lifetime.\n\n3. GOD CANNOT BECOME A MAN: Numbers 23:19 — 'God is not a man that he should lie nor a son of man that he should change his mind.' The incarnation — God becoming flesh — is considered theologically impossible and a violation of strict Jewish monotheism.\n\n4. ISAIAH 53 IS ABOUT ISRAEL — NOT JESUS: Jewish scholars argue the suffering servant in Isaiah 53 refers to Israel collectively suffering among the nations — not an individual Messiah.\n\n5. THE VIRGIN BIRTH MISTRANSLATION: Isaiah 7:14 uses the Hebrew word almah — meaning young woman — not necessarily virgin. The Hebrew word for virgin is betulah. Therefore the Matthew 1:23 application is considered a mistranslation.\n\n6. JESUS DID NOT FULFILL THE MESSIANIC PROPHECIES: The unfulfilled prophecies above disqualify Jesus under Jewish messianic expectations."
+      },
+      {
+        heading: "Isaiah 53 — The Key to Everything",
+        body: "This is the most important passage in the entire Jewish-Christian conversation. Written approximately 700 years before Jesus. Read it slowly:\n\n'He was despised and rejected by men, a man of sorrows and acquainted with grief. Surely he has borne our griefs and carried our sorrows. He was pierced for our transgressions. He was crushed for our iniquities. Upon him was the chastisement that brought us peace and with his wounds we are healed. All we like sheep have gone astray and the Lord has laid on him the iniquity of us all. He was oppressed and afflicted yet he opened not his mouth. Like a lamb that is led to the slaughter. By oppression and judgment he was taken away. He was cut off out of the land of the living, stricken for the transgression of my people.'\n\nEvery major detail matches the life and death of Jesus with stunning precision — rejected, silent before accusers, pierced, bearing the sins of others, dying for 'my people.'\n\nThe Jewish response: Isaiah 53 refers to Israel collectively as the suffering servant — not an individual.\n\nThe Christian response: The text uses singular pronouns throughout — he, him, his. It describes the servant dying FOR 'my people' — meaning dying on behalf of Israel, not as Israel. A nation cannot atone for itself. An innocent substitute bearing the guilt of the guilty is the entire logic of the Levitical sacrificial system Israel practiced for centuries. The servant is an individual dying in the place of the nation.\n\nAsk: 'In Isaiah 53 the servant bears the iniquity of 'my people.' If the servant IS Israel — who is the 'my people' Israel is dying for? The text requires a distinction between the servant and the people on whose behalf he suffers.'"
+      },
+      {
+        heading: "Your Counter-Response",
+        body: "ON THE UNFULFILLED PROPHECIES: The New Testament presents a two-stage messianic fulfillment. First coming — suffering servant, atonement for sin (Isaiah 53, Psalm 22). Second coming — ruling king, world peace, restored temple, gathered Israel (Isaiah 2, Ezekiel 37, Zechariah 14). Jewish expectation combined both into one event. The New Testament separates them across two advents. The prophecies are not unfulfilled — they are not yet fully fulfilled.\n\nON GOD BECOMING MAN: Numbers 23:19 means God does not lie or change His mind the way fallen humans do — not that God cannot take on human nature. The incarnation is not God changing His divine nature. It is God adding human nature. Colossians 2:9 — in Christ the whole fullness of deity dwells bodily. Both natures fully present simultaneously.\n\nON THE ALMAH ARGUMENT: The Jewish scholars who translated the Hebrew Scriptures into Greek (the Septuagint) approximately 200 years BEFORE Jesus used the Greek word parthenos — which specifically means virgin. Jewish scholars before Jesus understood the word to indicate a virgin. Matthew quotes their own translation.\n\nON ISAIAH 53 BEING ABOUT ISRAEL: Ask — 'Who is the 'we' and 'my people' on whose behalf the servant suffers and dies? If the servant IS Israel then Israel is dying for Israel — which makes no sense. The passage requires an innocent individual dying in the place of the guilty nation. That is the entire logic of the sacrificial system God gave Israel.'"
+      },
+      {
+        heading: "Messianic Prophecies Fulfilled by Jesus",
+        body: "These were written centuries before Jesus and are documented in the Hebrew Scriptures:\n\nMicah 5:2 — Born in Bethlehem. Zechariah 9:9 — Entering Jerusalem on a donkey. Psalm 41:9 — Betrayed by a close friend. Zechariah 11:12-13 — Betrayed for 30 pieces of silver. Psalm 22:16 — Hands and feet pierced. Psalm 22:18 — Garments divided by casting lots. Isaiah 53:9 — Buried with the rich. Psalm 16:10 — Not abandoned to the grave (resurrection). Isaiah 53:3-12 — The full suffering servant passage.\n\nThe statistical probability of one person fulfilling all messianic prophecies by chance has been calculated at 1 in 10 to the 157th power. For context there are approximately 10 to the 80th power atoms in the observable universe."
+      },
+      {
+        heading: "The Street Approach",
+        body: "In Brooklyn and New York you will encounter two very different Jewish communities:\n\nORTHODOX AND HASIDIC COMMUNITIES — Crown Heights, Borough Park, Williamsburg. These are deeply insular communities. Unsolicited theological conversation is rarely welcomed. Build relationship first. Respect boundaries. Let curiosity develop organically over time. These conversations take years not minutes.\n\nSECULAR JEWISH PEOPLE — Culturally Jewish, not necessarily practicing. More open to conversation. The most effective approach:\n\nStep 1 — Establish common ground: 'We worship the same God — the God of Abraham, Isaac, and Jacob. We read the same Scriptures. The difference between us comes down to one question.'\n\nStep 2 — Ask the one question: 'Have you ever read Isaiah 53? I would love to hear your interpretation of it.' Hand them a Bible open to that passage. Let them read it. Let the text do the work.\n\nStep 3 — Listen more than you speak. Ask questions. Understand their perspective before you share yours.\n\nStep 4 — Never pressure. Plant seeds. The Jewish people as a whole will not embrace their Messiah until He returns — Romans 11:25-26. Your role is to be a faithful witness, not to produce conversion on your timeline."
+      },
+      {
+        heading: "Key Verses to Know",
+        body: "Isaiah 53 — The suffering servant passage. The most powerful single chapter in Jewish apologetics. Memorize it.\n\nMicah 5:2 — Messiah born in Bethlehem. Zechariah 9:9 — Messiah enters Jerusalem on a donkey. Psalm 22 — Written 1,000 years before crucifixion was invented — describes crucifixion in detail. Daniel 9:24-26 — The 70 weeks prophecy — gives a timeline for the Messiah's coming that points precisely to the first century.\n\nRomans 11:17-18 — We are grafted branches. Do not be arrogant toward the natural branches. Romans 1:16 — Gospel to the Jew first. Genesis 12:3 — God promised to bless all nations through Abraham's seed."
+      },
+      {
+        heading: "Recommended Resources",
+        body: "The Case for the Real Jesus by Lee Strobel — includes a chapter on Jewish objections to Jesus. Answering Jewish Objections to Jesus by Michael Brown — the most comprehensive scholarly treatment of this subject in four volumes. Brown is a Jewish believer who engages these questions at the highest academic level.\n\nAlso powerful: the testimonies of Jewish believers in Jesus — Messianic Jews who came to faith through the Hebrew Scriptures. Their stories are some of the most compelling apologetics content available."
+      }
+    ]
   }
 ];
 
