@@ -197,12 +197,14 @@ export default function App() {
   return (
     <div style={{ minHeight: "100vh", background: "#090c14", color: "#e0d4c0", fontFamily: "'Georgia', 'Times New Roman', serif", display: "flex", flexDirection: "column" }}>
       <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&display=swap');
         @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
         .fade-up { animation: fadeUp 0.3s ease both; }
         button:hover { opacity: 0.85; }
         textarea:focus, input:focus { outline: none; }
         ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: #0d1020; } ::-webkit-scrollbar-thumb { background: #2a3a4a; border-radius: 2px; }
+        .sr-street { font-family: 'Bebas Neue', sans-serif !important; }
       `}</style>
 
       {/* NAV */}
@@ -246,14 +248,42 @@ function Dashboard({ completedTopics, totalMastered, totalVerses, coachSessions,
   return (
     <div style={{ maxWidth: 660, margin: "0 auto", padding: "20px 14px 60px" }}>
 
-      {/* MISSION STATEMENT */}
-      <div className="fade-up" style={{ background: "linear-gradient(135deg,#0d1428 0%,#1a1000 100%)", border: "1px solid #2a2010", borderLeft: "3px solid #c9a96e", borderRadius: 12, padding: "20px 18px", marginBottom: 16 }}>
-        <div style={{ fontSize: 10, letterSpacing: 4, color: "#c9a96e", textTransform: "uppercase", marginBottom: 6, fontFamily: "'Arial',sans-serif" }}>StreetReady Apologetics</div>
-        <div style={{ fontSize: 20, fontWeight: "bold", color: "#fff", marginBottom: 10, fontStyle: "italic" }}>Your Training Platform</div>
-        <div style={{ height: 1, background: "#2a2010", marginBottom: 10 }} />
-        <div style={{ fontSize: 11, letterSpacing: 2, color: "#c9a96e", textTransform: "uppercase", marginBottom: 6, fontFamily: "'Arial',sans-serif" }}>Our Mission</div>
-        <div style={{ fontSize: 13, color: "#c9a96e", fontWeight: "bold", marginBottom: 4, lineHeight: 1.6 }}>Always be prepared — 1 Peter 3:15.</div>
-        <div style={{ fontSize: 13, color: "#8a7a5a", lineHeight: 1.7 }}>Study. Drill. Practice. Be ready to defend your faith anywhere.</div>
+      {/* STACKED LOGO HEADER */}
+      <div className="fade-up" style={{ background: "linear-gradient(135deg,#0d1428 0%,#1a1000 100%)", border: "1px solid #2a2010", borderRadius: 12, padding: "24px 18px 20px", marginBottom: 16, display: "flex", flexDirection: "column", alignItems: "center", gap: 0, position: "relative", overflow: "hidden" }}>
+
+        {/* Background glow */}
+        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse at 50% 0%, rgba(201,169,110,0.07) 0%, transparent 65%)", pointerEvents: "none" }} />
+
+        {/* Footsteps SVG */}
+        <svg width="260" height="28" viewBox="0 0 260 28" fill="none" style={{ marginBottom: 10, position: "relative", zIndex: 1 }}>
+          <ellipse cx="12" cy="20" rx="9" ry="5.5" fill="#c9a96e" opacity="0.25"/>
+          <ellipse cx="16" cy="12" rx="5" ry="3" fill="#c9a96e" opacity="0.18"/>
+          <ellipse cx="42" cy="22" rx="10" ry="6" fill="#ffffff" opacity="0.18"/>
+          <ellipse cx="47" cy="13" rx="5.5" ry="3.2" fill="#ffffff" opacity="0.12"/>
+          <ellipse cx="76" cy="20" rx="11" ry="6.5" fill="#c9a96e" opacity="0.4"/>
+          <ellipse cx="82" cy="11" rx="6" ry="3.5" fill="#c9a96e" opacity="0.28"/>
+          <ellipse cx="114" cy="22" rx="12" ry="7" fill="#ffffff" opacity="0.28"/>
+          <ellipse cx="121" cy="12" rx="6.5" ry="3.8" fill="#ffffff" opacity="0.2"/>
+          <ellipse cx="154" cy="20" rx="13" ry="7.5" fill="#c9a96e" opacity="0.55"/>
+          <ellipse cx="162" cy="10" rx="7" ry="4" fill="#c9a96e" opacity="0.4"/>
+          <ellipse cx="196" cy="22" rx="14" ry="8" fill="#ffffff" opacity="0.38"/>
+          <ellipse cx="205" cy="11" rx="7.5" ry="4.5" fill="#ffffff" opacity="0.27"/>
+          <ellipse cx="240" cy="20" rx="15" ry="8.5" fill="#c9a96e" opacity="0.7"/>
+          <ellipse cx="250" cy="9" rx="8" ry="4.5" fill="#c9a96e" opacity="0.55"/>
+        </svg>
+
+        {/* Stacked wordmark */}
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 0, position: "relative", zIndex: 1 }}>
+          <div className="sr-street" style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(52px, 12vw, 72px)", color: "#ffffff", letterSpacing: "0.15em", lineHeight: 0.95, textAlign: "center" }}>STREET</div>
+          <div style={{ width: "85%", height: "2px", background: "linear-gradient(90deg, transparent, #c9a96e 20%, #e8c97e 50%, #c9a96e 80%, transparent)", margin: "4px 0" }} />
+          <div className="sr-street" style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(52px, 12vw, 72px)", color: "#c9a96e", letterSpacing: "0.15em", lineHeight: 0.95, textAlign: "center" }}>READY</div>
+        </div>
+
+        {/* Tagline */}
+        <div style={{ height: 1, background: "#2a2010", margin: "14px 0 10px", width: "100%", position: "relative", zIndex: 1 }} />
+        <div style={{ fontSize: 11, letterSpacing: 2, color: "#c9a96e", textTransform: "uppercase", marginBottom: 4, fontFamily: "'Arial',sans-serif", position: "relative", zIndex: 1 }}>Our Mission</div>
+        <div style={{ fontSize: 13, color: "#c9a96e", fontWeight: "bold", marginBottom: 4, lineHeight: 1.6, textAlign: "center", position: "relative", zIndex: 1 }}>Always be prepared — 1 Peter 3:15.</div>
+        <div style={{ fontSize: 13, color: "#8a7a5a", lineHeight: 1.7, textAlign: "center", position: "relative", zIndex: 1 }}>Study. Drill. Practice. Be ready to defend your faith anywhere.</div>
       </div>
 
       {/* STATS */}
