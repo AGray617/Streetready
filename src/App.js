@@ -286,6 +286,46 @@ function Dashboard({ completedTopics, totalMastered, totalVerses, coachSessions,
         <div style={{ fontSize: 13, color: "#8a7a5a", lineHeight: 1.7, textAlign: "center", position: "relative", zIndex: 1 }}>Study. Drill. Practice. Be ready to defend your faith anywhere.</div>
       </div>
 
+      {/* WHAT IS APOLOGETICS */}
+      <div className="fade-up" style={{ background: "#080c18", border: "1px solid #1a2a1a", borderRadius: 10, padding: "16px 16px", marginBottom: 16, animationDelay: "0.2s" }}>
+        <div style={{ fontSize: 10, letterSpacing: 3, color: "#4eda7a", textTransform: "uppercase", marginBottom: 10, fontFamily: "'Arial',sans-serif" }}>What Is Apologetics?</div>
+        <div style={{ fontSize: 14, color: "#c9a96e", fontWeight: "bold", marginBottom: 8, lineHeight: 1.6 }}>It is not about arguing. It is about being ready.</div>
+        <div style={{ fontSize: 13, color: "#8a9a8a", lineHeight: 1.8, marginBottom: 10 }}>
+          Apologetics comes from the Greek word <span style={{ color: "#c9a96e", fontStyle: "italic" }}>apologia</span> — meaning a reasoned defense. Peter used it in 1 Peter 3:15 when he said to always be prepared to give a reason for the hope that is in you. It is the discipline of knowing what you believe, why you believe it, and how to explain it clearly when someone challenges it.
+        </div>
+        <div style={{ fontSize: 13, color: "#8a9a8a", lineHeight: 1.8, marginBottom: 10 }}>
+          Apologetics is not arguing people into the Kingdom. It is removing the intellectual roadblocks that keep people from considering the gospel seriously. It is answering the Muslim who says the Bible was corrupted. The Hebrew Israelite who says Jesus only came for Israel. The skeptic who says science has disproved God. Not to win — but to open a door.
+        </div>
+        <div style={{ height: 1, background: "#1a2a1a", margin: "12px 0" }} />
+        <div style={{ fontSize: 10, letterSpacing: 3, color: "#4eda7a", textTransform: "uppercase", marginBottom: 8, fontFamily: "'Arial',sans-serif" }}>Why StreetReady?</div>
+        <div style={{ fontSize: 13, color: "#8a9a8a", lineHeight: 1.8, marginBottom: 8 }}>
+          Most apologetics resources are written for seminary students — dense, academic, and disconnected from the conversations happening on street corners, in barbershops, at front doors, and in DMs. StreetReady was built for the everyday believer who knows the gospel is true but freezes when someone challenges it face to face.
+        </div>
+        <div style={{ fontSize: 13, color: "#8a9a8a", lineHeight: 1.8, marginBottom: 10 }}>
+          The founder of this platform spent fourteen years in the streets of Brooklyn before coming to faith. He knows the conversations that happen in urban communities — and he built this tool specifically for those conversations. Not theory. Not academia. Street-level. Faith-grounded. Ready.
+        </div>
+        <div style={{ height: 1, background: "#1a2a1a", margin: "12px 0" }} />
+        <div style={{ fontSize: 10, letterSpacing: 3, color: "#4eda7a", textTransform: "uppercase", marginBottom: 8, fontFamily: "'Arial',sans-serif" }}>How to Use This App</div>
+        {[
+          { step: "01", title: "Study", desc: "Start with the doctrine modules. Know what you believe before you learn what others believe. The Trinity, the nature of Jesus, salvation, and manuscript reliability are your foundation." },
+          { step: "02", title: "Learn What Others Believe", desc: "Go through the faith profiles. Understand Islam, Hebrew Israelites, JWs, Mormonism, and Judaism from their own perspective — not a caricature. The person who feels understood is more likely to listen." },
+          { step: "03", title: "Drill Scripture", desc: "Memorize the verses that matter most in street conversations. Organized by function — not alphabetically. The Gospel. Boldness. Answering Objections. Under Conviction." },
+          { step: "04", title: "Practice with the AI Coach", desc: "Face real objections before you face them in real life. The AI plays the objector and coaches your responses simultaneously. Practice until the answers come naturally." },
+        ].map((item, i) => (
+          <div key={i} style={{ display: "flex", gap: 12, marginBottom: 12 }}>
+            <div style={{ fontSize: 20, fontWeight: "bold", color: "#c9a96e", opacity: 0.4, fontFamily: "'Arial',sans-serif", minWidth: 28, lineHeight: 1.4 }}>{item.step}</div>
+            <div>
+              <div style={{ fontSize: 13, fontWeight: "bold", color: "#c9a96e", marginBottom: 3 }}>{item.title}</div>
+              <div style={{ fontSize: 12, color: "#6a7a6a", lineHeight: 1.7 }}>{item.desc}</div>
+            </div>
+          </div>
+        ))}
+        <div style={{ background: "#0d1a0d", border: "1px solid #1a3a1a", borderRadius: 8, padding: "12px 14px", marginTop: 4 }}>
+          <div style={{ fontSize: 12, color: "#6a9a6a", lineHeight: 1.7, fontStyle: "italic" }}>"Our fight is not against people on earth — we are fighting against spiritual powers of evil in the heavenly places." — Ephesians 6:12</div>
+          <div style={{ fontSize: 11, color: "#3a5a3a", marginTop: 6, fontFamily: "'Arial',sans-serif", letterSpacing: 1 }}>Engage people. Not defeat them.</div>
+        </div>
+      </div>
+
       {/* STATS */}
       <div style={{ display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap" }}>
         {[
@@ -396,6 +436,10 @@ const FAITHS = [
       {
         heading: "The Bible Corruption Argument — Full Response",
         body: "This is their most common and most important argument. Here is how to dismantle it step by step.\n\nSTEP 1 — Ask when it was corrupted. The Quran was written in the 600s AD. The New Testament was written 25–50 years after Jesus — approximately 50–100 AD. The Old Testament manuscripts (Dead Sea Scrolls) date to 250 BC. All of this existed 500–600 years before Muhammad. If the Bible was corrupted — it had to happen before Islam arrived. So ask: 'When exactly was it corrupted and who did it?'\n\nSTEP 2 — Use the Quran against the argument. Surah 5:47 tells Christians to 'judge by what Allah revealed in the Gospel.' Surah 10:94 tells Muhammad himself — if in doubt, ask those who read the Scripture before you. If the Bible was corrupted, why does the Quran tell people to read it and judge by it? The Quran's own words collapse the corruption argument.\n\nSTEP 3 — Present the manuscript evidence. We have over 24,000 New Testament manuscripts — more than any other ancient document by a massive margin. Homer's Iliad has 643. Caesar's Gallic Wars has 10. The Dead Sea Scrolls (discovered 1947) contain Isaiah scrolls from 250 BC that are word-for-word identical to modern translations. No corruption. The manuscripts before Islam and after Islam match.\n\nSTEP 4 — Ask for the original. 'Show me the uncorrupted version.' No such document exists. No Muslim scholar has ever produced an original uncorrupted Bible because there is no evidence one ever existed that differed from what we have.\n\nSTEP 5 — Timeline closes it. Jesus lived approximately 4 BC – 30 AD. Muhammad was born 570 AD. That is a 570+ year gap. The New Testament was circulating throughout the Roman Empire, North Africa, and the Middle East for centuries before Islam. For the corruption to work — thousands of manuscripts across dozens of countries and languages would all have to have been changed identically with no surviving originals and no record of the change. That is historically impossible."
+      },
+      {
+        heading: "The Q Source Argument — Advanced Response",
+        body: "In formal debates Muslims sometimes use academic-sounding arguments to challenge the reliability of the Gospels. One of the most common is the Q Source argument. Here is what it is and how to respond.\n\nWHAT IS Q? Q comes from the German word Quelle meaning source. It is a theoretical document that some biblical scholars believe Matthew and Luke both drew from when writing their Gospels — in addition to Mark. The argument goes that since Matthew and Luke share material not found in Mark, they must have used a common written source which scholars call Q.\n\nCRITICAL POINT — Q has never been found. No manuscript. No fragment. No archaeological evidence of any kind. It is a hypothetical reconstruction. No scholar has ever seen Q because it may never have existed.\n\nWHY MUSLIMS USE IT: They use Q to argue that the original teachings of Jesus have been lost or altered — and that what we have in the Gospels is later invention. The argument sounds like this: 'Even your own Christian scholars admit the Gospels are compiled from sources like Q that no longer exist. Therefore the Bible cannot be trusted.'\n\nHOW TO RESPOND:\n\n1. Q is a hypothesis not a document. Using a hypothetical that has never been found as historical evidence is not scholarship — it is speculation. You cannot use a theory to disprove 24,000 physical manuscripts.\n\n2. The agreement between Matthew and Luke actually strengthens reliability. If two independent sources share common material it means they were drawing from real early traditions about Jesus — not inventing them. The overlap confirms the core of His teaching.\n\n3. The manuscript evidence stands regardless of Q. Whether Q existed or not — 24,000 New Testament manuscripts predating Islam by centuries all agree with each other. Q has no bearing on that evidence.\n\n4. Q is a Christian internal debate — not a Muslim advantage. This is an academic conversation among New Testament scholars about Gospel composition. It says nothing about whether Jesus rose from the dead, whether His claims were true, or whether the text we have is reliable.\n\n5. Ask the question back: 'If Q is your evidence for corruption — where is Q? You are asking me to doubt 24,000 manuscripts because of a document nobody has ever seen. That is not historical evidence. That is a theory being used as a weapon.'"
       },
       {
         heading: "Your Counter-Response",
