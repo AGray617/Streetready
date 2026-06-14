@@ -452,6 +452,10 @@ const FAITHS = [
       {
         heading: "Recommended Resource",
         body: "Seeking Allah Finding Jesus by Nabeel Qureshi — a former Muslim who became a Christian apologist. Gives you the argument from the inside. Essential reading before engaging Muslims on the street."
+      },
+      {
+        heading: "📖 Know Their Scripture — Bible vs Quran",
+        body: "The Quran affirms more about Jesus than most Muslims realize. Use their own scripture to open the conversation.\n\nSurah 3:45 — The Quran calls Jesus the Word of God (Kalimatullah) and a Spirit from God. No other prophet in the Quran receives these titles. Compare John 1:1,14 — In the beginning was the Word and the Word was God... the Word became flesh.\n\nSurah 19 (Maryam) — The Quran affirms the virgin birth of Jesus in full detail. This is common ground. Start here.\n\nSurah 4:157 — The Quran denies the crucifixion. This contradicts every historical source including Roman and Jewish records (Tacitus, Josephus). Ask: if every historical source confirms the crucifixion and only the Quran — written 600 years later — denies it, which source carries more weight?\n\nSurah 5:47 — Allah tells Christians to judge by the Gospel. If the Gospel was already corrupted when Muhammad received this command, why did Allah tell Christians to judge by it?\n\nSurah 10:94 — Allah tells Muhammad himself: if you are in doubt, ask those who read the Scripture before you. This affirms the Bible's authority at the time of Muhammad.\n\nKey question to ask: The Quran calls Jesus the Word of God and a Spirit from God. Can you show me any other prophet who receives those titles? Let them search. They will not find one. Then ask what those titles mean."
       }
     ]
   },
@@ -483,6 +487,10 @@ const FAITHS = [
       {
         heading: "Recommended Resource",
         body: "Urban Apologetics by Eric Mason — already on your reading list. The most thorough and culturally credible treatment of this challenge available. Written by Black scholars for the urban context."
+      },
+      {
+        heading: "📖 Know Their Scripture — The Bible in Full Context",
+        body: "Hebrew Israelites use the Bible exclusively but read it selectively. Their entire argument collapses when you read the same passages in full context.\n\nMatthew 15:24 — Their anchor verse: I was sent only to the lost sheep of Israel. Full context: Matthew 28:19 in the same Gospel — Go and make disciples of ALL NATIONS. Jesus himself expanded the mission before He ascended. The same author. The same book. The temporary limitation became the universal commission.\n\nActs 8:26-40 — Philip and the Ethiopian eunuch. The Ethiopian is an African convert to Judaism reading Isaiah. Philip explains the gospel to him and baptizes him immediately — no requirement to be a genetic Israelite. This is one of the earliest gentile conversions in Acts.\n\nRomans 2:28-29 — For no one is a Jew who is merely one outwardly, nor is circumcision outward and physical. But a Jew is one inwardly. Paul defines Israel spiritually not ethnically. This directly dismantles genetic identity claims.\n\nGalatians 3:28-29 — There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus. And if you are Christ's then you are Abraham's offspring and heirs according to promise. Belonging to Christ — not ethnicity — makes you an heir of the promise.\n\nGenesis 12:3 — God told Abraham: in you all the families of the earth shall be blessed. The blessing was always intended for all nations. Israel was the vehicle, not the destination.\n\nKey question to ask: If the gospel is only for genetic Israelites, why did Paul spend his entire ministry bringing it to Greeks, Romans, and Gentiles? And why did the Holy Spirit fall on Cornelius — a Roman centurion — in Acts 10 before he was circumcised or converted to Judaism?"
       }
     ]
   },
@@ -514,6 +522,10 @@ const FAITHS = [
       {
         heading: "How to Engage JWs at the Door",
         body: "They are trained and will have responses ready. Do not try to overwhelm them with verses. Pick ONE argument and stay on it. The best opening: ask them to read John 20:28 in their own NWT and explain why Jesus did not correct Thomas. Then ask: 'If Jesus is not God, what should He have said?' Let them wrestle with it. Never be hostile — they are people Jesus died for who have been misled by an organization. Gentleness opens more doors than winning arguments."
+      },
+      {
+        heading: "📖 Know Their Scripture — Bible vs New World Translation",
+        body: "The Watchtower altered specific Greek words to change the meaning of key verses. Knowing the original language exposes the changes.\n\nJohn 1:1 — Original Greek: kai theos en ho logos — and the Word was God. NWT changes this to: and the Word was a god. The problem: Greek grammar does not support this translation. When a predicate noun precedes the verb without the article (as here) it emphasizes the nature or quality of the subject — not make it indefinite. Every major Greek scholar including non-Christian scholars reject the NWT rendering here.\n\nColossians 1:15-17 — NWT inserts the word other four times: he is before all OTHER things, all OTHER things were created through him. The word other does not appear in any Greek manuscript. It was inserted to make Jesus a created being. The original text says he is before all things — meaning before creation itself, which is impossible if he is part of creation.\n\nPhilippians 2:9 — NWT: God exalted him to a superior position. Original: God highly exalted him. The NWT downgrades the exaltation language to avoid the implication of full deity.\n\nKey question to ask: Can you show me a single Greek scholar — not affiliated with the Watchtower — who agrees with the translation of John 1:1 in the NWT? If the translation is accurate it should be supported by scholarship outside the organization. The Watchtower refuses to name the translators of the NWT. Ask why."
       }
     ]
   },
@@ -561,6 +573,10 @@ const FAITHS = [
       {
         heading: "Recommended Resource",
         body: "Mormonism 101 by Bill McKeever and Eric Johnson — the most thorough and fair-minded treatment of LDS theology from an evangelical perspective. Also helpful: the testimony of former LDS members on the Mormon Stories Podcast and the CES Letter — a document written by a former believing Mormon that documents the historical and theological problems with LDS claims."
+      },
+      {
+        heading: "📖 Know Their Scripture — Bible vs LDS Additional Scriptures",
+        body: "Mormons use the Bible but add three additional scriptures: the Book of Mormon, Doctrine and Covenants, and Pearl of Great Price. These texts directly contradict the Bible on foundational doctrines.\n\nOn the nature of God — Doctrine and Covenants 130:22 teaches God the Father has a body of flesh and bones as tangible as man. Compare John 4:24 — God is spirit. Numbers 23:19 — God is not a man. The LDS God is a physical exalted man. The biblical God is eternal spirit who has always been God.\n\nOn eternal progression — Lorenzo Snow (5th LDS prophet) taught: As man now is, God once was. As God now is, man may become. Compare Isaiah 43:10 — Before me no god was formed, nor shall there be any after me. If God was once a man who became God — then a god was formed before the current God. Isaiah says that is impossible.\n\nOn salvation — 2 Nephi 25:23 (Book of Mormon): it is by grace that we are saved after all we can do. Compare Ephesians 2:8-9 — For by grace you have been saved through faith, not a result of works. The Book of Mormon adds after all we can do — making grace conditional on human effort. Paul says grace is not a result of works at all.\n\nKey question to ask: Joseph Smith taught all existing churches were corrupt and God told him not to join any of them. If that is true — why does the early Book of Mormon quote the King James Version of the Bible, produced by one of those corrupt churches, word for word including its translation errors?"
       }
     ]
   },
@@ -608,6 +624,10 @@ const FAITHS = [
       {
         heading: "Recommended Resources",
         body: "The Case for the Real Jesus by Lee Strobel — includes a chapter on Jewish objections to Jesus. Answering Jewish Objections to Jesus by Michael Brown — the most comprehensive scholarly treatment of this subject in four volumes. Brown is a Jewish believer who engages these questions at the highest academic level.\n\nAlso powerful: the testimonies of Jewish believers in Jesus — Messianic Jews who came to faith through the Hebrew Scriptures. Their stories are some of the most compelling apologetics content available."
+      },
+      {
+        heading: "📖 Know Their Scripture — Bible vs Rabbinic Interpretation",
+        body: "Jewish objections to Jesus as Messiah are rooted in rabbinic reinterpretations that developed after the first century — often directly in response to Christian claims. The plain reading of the Hebrew text consistently points to Jesus.\n\nIsaiah 53 — Rabbinic interpretation claims the suffering servant is the nation of Israel. Problems: Israel cannot be called sinless (verse 9 — he had done no violence, no deceit in his mouth). Israel cannot bear the sins of others (verses 4-6 — he bore our griefs and carried our sorrows). The servant is an individual — the text uses singular pronouns throughout. The Babylonian Talmud (Sanhedrin 98b) identifies the Messiah as one who bears diseases — the same language as Isaiah 53:4.\n\nPsalm 22 — Written by David 1,000 years before crucifixion was invented. Verse 16 — they have pierced my hands and my feet. The Septuagint (Greek translation of the Hebrew OT made 200 years before Jesus) renders the Hebrew word as pierced. This Psalm describes in precise detail what happens at a crucifixion.\n\nDaniel 9:24-26 — The 70 weeks prophecy says the Messiah will come and be cut off after 483 years from the decree to rebuild Jerusalem. The decree came from Artaxerxes in 444 BC. Adding 483 years lands at approximately 33 AD — the time of Jesus. Daniel then says after the Messiah is cut off the city and sanctuary will be destroyed. Jerusalem and the temple were destroyed in 70 AD. The Messiah had to come before 70 AD. Jewish tradition has no other candidate.\n\nKey question to ask: Daniel 9 says the Messiah must come and be cut off before the temple is destroyed in 70 AD. If Jesus is not the Messiah — who was? Every candidate must be identified by name and must have appeared before 70 AD."
       }
     ]
   }
