@@ -116,6 +116,9 @@ const VERSE_CATS = [
       { ref: "John 3:16", text: "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.", use: "The anchor verse. Most people recognize it — use it to open the door to deeper conversation." },
       { ref: "Ephesians 2:8-9", text: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works.", use: "Shut down 'I'll earn it' thinking immediately. Salvation is a gift received, not a reward earned." },
       { ref: "Romans 10:9", text: "If you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.", use: "The invitation — what responding to the gospel actually looks like in practical terms." },
+      { ref: "John 1:12", text: "But to all who did receive him, who believed in his name, he gave the right to become children of God.", use: "Salvation is received not achieved. Use when someone asks what becoming a Christian actually means." },
+      { ref: "2 Corinthians 5:21", text: "For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.", use: "The great exchange — His righteousness credited to us. Use when explaining how a holy God can forgive sinners." },
+      { ref: "Isaiah 53:6", text: "All we like sheep have gone astray; we have turned — every one — to his own way; and the Lord has laid on him the iniquity of us all.", use: "Powerful with Jewish friends and skeptics. Written 700 years before Jesus — describes the cross precisely." },
     ]
   },
   {
@@ -125,6 +128,10 @@ const VERSE_CATS = [
       { ref: "1 Peter 3:15", text: "Always be prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect.", use: "Your mandate as an apologist. Three components: prepared, gentle, respectful — all three matter." },
       { ref: "Acts 1:8", text: "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses.", use: "The boldness you need is received from the Spirit, not manufactured by you. Pray before you go out." },
       { ref: "Romans 1:16", text: "For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes.", use: "Memorize this and say it out loud before every street conversation. Own it." },
+      { ref: "Proverbs 28:1", text: "The wicked flee when no one pursues, but the righteous are bold as a lion.", use: "Boldness is the natural state of a righteous man. You have nothing to run from. Walk in it." },
+      { ref: "Jeremiah 1:8", text: "Do not be afraid of them, for I am with you to deliver you, declares the Lord.", use: "God said this to Jeremiah before sending him to a hostile audience. He says it to you too." },
+      { ref: "Matthew 10:19-20", text: "Do not be anxious how you are to speak or what you are to say, for what you are to say will be given to you in that hour. For it is not you who speak, but the Spirit of your Father speaking through you.", use: "When you feel unprepared in the moment — relax. The Spirit shows up when you open your mouth in faith." },
+      { ref: "Philippians 4:13", text: "I can do all things through him who strengthens me.", use: "Not a sports verse — a suffering and endurance verse. Paul wrote it from prison. Real strength for hard conversations." },
     ]
   },
   {
@@ -135,6 +142,10 @@ const VERSE_CATS = [
       { ref: "James 2:10", text: "For whoever keeps the whole law but fails in one point has become guilty of all of it.", use: "Against 'I'm a good person.' Nobody gets partial credit before a perfectly holy God. One violation = guilty." },
       { ref: "Isaiah 40:8", text: "The grass withers, the flower fades, but the word of our God will stand forever.", use: "Against 'the Bible was changed.' God's word endures. The Dead Sea Scrolls confirm it physically." },
       { ref: "Romans 8:28", text: "And we know that for those who love God all things work together for good, for those who are called according to his purpose.", use: "Against the suffering objection. Not that everything IS good — but God works THROUGH everything for good." },
+      { ref: "Hebrews 4:12", text: "For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit.", use: "Against 'the Bible is just an old book.' The Word is alive — it does something when it is spoken and heard." },
+      { ref: "2 Timothy 3:16", text: "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness.", use: "Against 'the Bible was written by men.' Men wrote it — God breathed it. The origin is divine." },
+      { ref: "1 Corinthians 15:3-4", text: "Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures.", use: "The resurrection as historical fact. Paul wrote this within 25 years of the event — this is eyewitness-era testimony." },
+      { ref: "Psalm 19:1", text: "The heavens declare the glory of God, and the sky above proclaims his handiwork.", use: "Against 'science disproved God.' Creation itself testifies. The complexity of the universe demands a Creator." },
     ]
   },
   {
@@ -144,6 +155,10 @@ const VERSE_CATS = [
       { ref: "Romans 10:13", text: "For everyone who calls on the name of the Lord will be saved.", use: "Simple, clear, no exceptions. Everyone means everyone. Use when someone is close but hesitant." },
       { ref: "Isaiah 1:18", text: "Come now, let us reason together, says the Lord: though your sins are like scarlet, they shall be as white as snow.", use: "God Himself invites the reasoning. Perfect verse for the skeptic — God is not afraid of your questions." },
       { ref: "Revelation 3:20", text: "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him.", use: "Jesus is the one pursuing them. They just have to open the door. Use when someone is under conviction." },
+      { ref: "1 John 1:9", text: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.", use: "When someone is afraid their past is too much. Confession is the only requirement — God handles the rest." },
+      { ref: "Hebrews 7:25", text: "Consequently, he is able to save to the uttermost those who draw near to God through him, since he always lives to make intercession for them.", use: "To the uttermost — completely, fully, with nothing left out. Use when someone feels beyond saving." },
+      { ref: "Ezekiel 36:26", text: "And I will give you a new heart, and a new spirit I will put within you. And I will remove the heart of stone from your flesh and give you a heart of flesh.", use: "When someone says 'I can't change.' God does not ask you to change — He promises to change you from the inside." },
+      { ref: "Luke 15:20", text: "But while he was still a long way off, his father saw him and felt compassion, and ran and embraced him and kissed him.", use: "The prodigal son. The father ran — not walked. God is not waiting for you to get close enough. He runs toward you." },
     ]
   },
 ];
