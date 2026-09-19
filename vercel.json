@@ -1,4 +1,7 @@
 {
-  "buildCommand": "node prebuild.js && npm run build",
-  "framework": "create-react-app"
+  "framework": "create-react-app",
+  "env": {
+    "INLINE_RUNTIME_CHUNK": "false",
+    "CI": "false"
+  }
 }
