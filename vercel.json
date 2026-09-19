@@ -1,7 +1,3 @@
 {
-  "framework": "create-react-app",
-  "env": {
-    "INLINE_RUNTIME_CHUNK": "false",
-    "CI": "false"
-  }
+  "framework": "create-react-app"
 }
