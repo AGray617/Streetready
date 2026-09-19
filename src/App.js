@@ -269,7 +269,7 @@ export default function App() {
   return (
     <div style={{ minHeight: "100vh", background: "#090c14", color: "#e0d4c0", fontFamily: "'Georgia', 'Times New Roman', serif", display: "flex", flexDirection: "column" }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&display=swap');
+       
         @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
         .fade-up { animation: fadeUp 0.3s ease both; }
