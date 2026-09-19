@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "node prebuild.js",
     "build": "react-scripts build"
   },
   "browserslist": {
