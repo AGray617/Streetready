@@ -268,17 +268,7 @@ export default function App() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#090c14", color: "#e0d4c0", fontFamily: "'Georgia', 'Times New Roman', serif", display: "flex", flexDirection: "column" }}>
-      <style>{`
-       
-        @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:translateY(0); } }
-        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
-        .fade-up { animation: fadeUp 0.3s ease both; }
-        button:hover { opacity: 0.85; }
-        textarea:focus, input:focus { outline: none; }
-        ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: #0d1020; } ::-webkit-scrollbar-thumb { background: #2a3a4a; border-radius: 2px; }
-        .sr-street { font-family: 'Bebas Neue', sans-serif !important; }
-      `}</style>
-
+      
       {/* NAV */}
       <nav style={{ background: "#0a0e1a", borderBottom: "1px solid #1a2232", padding: "0 4px", display: "flex", alignItems: "stretch", position: "sticky", top: 0, zIndex: 100 }}>
         {NAV.map(n => (
